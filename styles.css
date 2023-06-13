@@ -1,0 +1,105 @@
+/* styles.css */
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #221f3b;
+    color: #ffffff;
+  }
+  
+  .container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Jumbotron styles */
+  .jumbotron {
+    background-color: #6c63ff;
+    padding: 1rem 1rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .jumbotron h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+  }
+  
+  .jumbotron p {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    color: #ffffff;
+  }
+  
+  /* Table styles */
+  table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 0.65rem;
+    vertical-align: top;
+    border: 1px solid #6c63ff;
+  }
+  
+  th {
+    background-color: #6c63ff;
+    font-weight: bold;
+  }
+  
+  /* Heading styles */
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+  }
+  
+  h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+  }
+  
+  h4 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+  }
+  
+  /* List styles */
+  ul, ol {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    color: #ffffff;
+  }
+  
+  /* Miscellaneous styles */
+  p {
+    margin-bottom: 1rem;
+  }
+  
+  ol {
+    list-style-type: decimal;
+  }
+  
+  /* Footer styles */
+  p:last-child {
+    margin-bottom: 1;
+    text-align: center;
+  }
+  
+  /* Media queries */
+  @media (max-width: 767px) {
+    .jumbotron h1 {
+      font-size: 2rem;
+    }
+  }
+  
